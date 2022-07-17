@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-size: 120%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 5px;
+  text-align: center;
+  background-image: url("./components/assets/image/fynn-DEnuB_zok9M-unsplash.gif");
+  min-height: 100vh;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+li {
+  list-style: none;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+.btn-w {
+  border: none;
+  background-color: inherit;
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 20px; 
+  border-radius: 10px;
+  margin: 20px;
+}
+.btn-w:hover{
+
+  
+  background: rgba(51, 139, 177, 0.5);
+  color: #050801;
+}
+
+.card {
+  background: rgb(233 242 246 / 5%);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.card__ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: ghostwhite;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.temp {
+  font-size: 60px;
+  color: white;
+  text-shadow: 0 0 10px #000;
+}
+
+.card_footer {
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  font-size: 11px;
+  color: white;
+  
+}
+a {
+  color: white;
+  text-decoration: none;
+}
